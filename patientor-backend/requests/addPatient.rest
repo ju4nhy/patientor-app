@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/patients
+Content-Type: application/json
+
+{
+  "name": "James Bond",
+  "dateOfBirth": "1979-06-15",
+  "ssn": "007007-A7A5",
+  "gender": "male",
+  "occupation":  "Secret Agent"
+}
